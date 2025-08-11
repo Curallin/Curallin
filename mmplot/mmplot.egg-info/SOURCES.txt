@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+mmplot/__init__.py
+mmplot/cli.py
+mmplot.egg-info/PKG-INFO
+mmplot.egg-info/SOURCES.txt
+mmplot.egg-info/dependency_links.txt
+mmplot.egg-info/entry_points.txt
+mmplot.egg-info/top_level.txt
+mmplot/user_modules/__init__.py
+mmplot/user_modules/example.py
