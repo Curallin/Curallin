@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmplot"
+version = "0.1.0"
+description = "A lightweight wrapper package to bundle your existing Python files and expose them under a single namespace."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Your Name" }
+]
+license = { text = "MIT" }
+keywords = ["mmplot", "packaging", "utilities"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://example.com"
+
+[project.scripts]
+mmplot-add = "mmplot.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mmplot*"]
